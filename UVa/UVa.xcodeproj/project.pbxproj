@@ -6,10 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		3D84CD5C1F4CE20B0039E4F2 /* 10911 - Forming Quiz Teams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D84CD5B1F4CE20B0039E4F2 /* 10911 - Forming Quiz Teams.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		3DBD1D1E1F15E6CC000DE8C5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -25,6 +21,12 @@
 /* Begin PBXFileReference section */
 		3D84CD581F4CC9300039E4F2 /* convention.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = convention.cpp; sourceTree = "<group>"; };
 		3D84CD5B1F4CE20B0039E4F2 /* 10911 - Forming Quiz Teams.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "10911 - Forming Quiz Teams.cpp"; sourceTree = "<group>"; };
+		3D84CD5E1F4DE8370039E4F2 /* 272 - TEX Quotes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "272 - TEX Quotes.cpp"; sourceTree = "<group>"; };
+		3D84CD601F4DEE370039E4F2 /* 11172 - Relational Operator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "11172 - Relational Operator.cpp"; sourceTree = "<group>"; };
+		3D84CD621F4DF0060039E4F2 /* 11498 - Division of Nlogonia.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "11498 - Division of Nlogonia.cpp"; sourceTree = "<group>"; };
+		3D84CD641F4DF17E0039E4F2 /* 11727 - Cost Cutting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "11727 - Cost Cutting.cpp"; sourceTree = "<group>"; };
+		3D84CD661F4DF4D10039E4F2 /* 11559 - Event Planning.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "11559 - Event Planning.cpp"; sourceTree = "<group>"; };
+		3D84CD681F4DF9670039E4F2 /* 11799 - Horror Dash.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "11799 - Horror Dash.cpp"; sourceTree = "<group>"; };
 		3DBD1D201F15E6CC000DE8C5 /* UVa */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UVa; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DBD1D2A1F15E6E1000DE8C5 /* 725 - Division.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "725 - Division.cpp"; sourceTree = "<group>"; };
 		3DBD1D2C1F15F352000DE8C5 /* 11565 - Simple Equations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "11565 - Simple Equations.cpp"; sourceTree = "<group>"; };
@@ -70,6 +72,12 @@
 				3DBD1D301F15FDD2000DE8C5 /* 12455 - Bars.cpp */,
 				3DBD1D321F16095E000DE8C5 /* 11195 - Another n-Queen Problem.cpp */,
 				3D84CD5B1F4CE20B0039E4F2 /* 10911 - Forming Quiz Teams.cpp */,
+				3D84CD5E1F4DE8370039E4F2 /* 272 - TEX Quotes.cpp */,
+				3D84CD601F4DEE370039E4F2 /* 11172 - Relational Operator.cpp */,
+				3D84CD621F4DF0060039E4F2 /* 11498 - Division of Nlogonia.cpp */,
+				3D84CD641F4DF17E0039E4F2 /* 11727 - Cost Cutting.cpp */,
+				3D84CD661F4DF4D10039E4F2 /* 11559 - Event Planning.cpp */,
+				3D84CD681F4DF9670039E4F2 /* 11799 - Horror Dash.cpp */,
 			);
 			path = UVa;
 			sourceTree = "<group>";
@@ -131,7 +139,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D84CD5C1F4CE20B0039E4F2 /* 10911 - Forming Quiz Teams.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -22,12 +22,14 @@ double pro(int state){
     if(vis[state] != INF) return vis[state];
     
     double ret = INF;
-    for(int i=0;i<2*n;++i){
-        if(!(state & (1<<i))) continue;
-        for(int j=i+1;j<2*n;++j){
-            if(!(state & (1<<j))) continue;
-            ret = MINV(ret, pro((state&(~(1<<i)))&(~(1<<j))) + dis(i,j));
-        }
+    int i;
+    for(i=0;i<2*n;++i){
+        if(state & (1<<i))
+            break;
+    }
+    for(int j=i+1;j<2*n;++j){
+        if(!(state & (1<<j))) continue;
+        ret = MINV(ret, pro((state&(~(1<<i)))&(~(1<<j))) + dis(i,j));
     }
     return vis[state] = ret;
 }
@@ -36,9 +38,8 @@ int main()
 {
     int tc = 1;
     while(scanf("%d",&n)==1 && n){
-        char name[20];
         for(int i=0;i<2*n;++i)
-            scanf("%s %d %d",name,&px[i],&py[i]);
+            scanf("%*s %d %d",&px[i],&py[i]);
         for(int i=0;i<(1<<(2*n));++i)
             vis[i]=INF;
         

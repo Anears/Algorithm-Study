@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D0EEA2B1F73E7FD00C45FC8 /* [BOJ_1003]피보나치함수.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EE9F31F73E7FD00C45FC8 /* [BOJ_1003]피보나치함수.cpp */; };
+		3D0EEA2C1F73E7FD00C45FC8 /* [BOJ_1018]체스판다시칠하기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EE9F41F73E7FD00C45FC8 /* [BOJ_1018]체스판다시칠하기.cpp */; };
+		3D0EEA2D1F73E7FD00C45FC8 /* [BOJ_1051]숫자삼각형.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EE9F51F73E7FD00C45FC8 /* [BOJ_1051]숫자삼각형.cpp */; };
+		3D0EEA2E1F73E7FD00C45FC8 /* [BOJ_1065]한수.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EE9F61F73E7FD00C45FC8 /* [BOJ_1065]한수.cpp */; };
+		3D0EEA2F1F73E7FD00C45FC8 /* [BOJ_1107]리모컨.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EE9F71F73E7FD00C45FC8 /* [BOJ_1107]리모컨.cpp */; };
+		3D0EEA301F73E7FD00C45FC8 /* [BOJ_1149]RGB거리.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EE9F81F73E7FD00C45FC8 /* [BOJ_1149]RGB거리.cpp */; };
+		3D0EEA311F73E7FD00C45FC8 /* [BOJ_1182]부분집합의합.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EE9F91F73E7FD00C45FC8 /* [BOJ_1182]부분집합의합.cpp */; };
+		3D0EEA321F73E7FD00C45FC8 /* [BOJ_1219]오민식의_고민.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EE9FA1F73E7FD00C45FC8 /* [BOJ_1219]오민식의_고민.cpp */; };
+		3D0EEA331F73E7FD00C45FC8 /* [BOJ_1260]DFS와BFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EE9FB1F73E7FD00C45FC8 /* [BOJ_1260]DFS와BFS.cpp */; };
+		3D0EEA341F73E7FD00C45FC8 /* [BOJ_1463]1로만들기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EE9FC1F73E7FD00C45FC8 /* [BOJ_1463]1로만들기.cpp */; };
+		3D0EEA351F73E7FD00C45FC8 /* [BOJ_1697]숨바꼭질.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EE9FD1F73E7FD00C45FC8 /* [BOJ_1697]숨바꼭질.cpp */; };
+		3D0EEA361F73E7FD00C45FC8 /* [BOJ_1722]순열의순서.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EE9FE1F73E7FD00C45FC8 /* [BOJ_1722]순열의순서.cpp */; };
+		3D0EEA371F73E7FD00C45FC8 /* [BOJ_1753]최단경로.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EE9FF1F73E7FD00C45FC8 /* [BOJ_1753]최단경로.cpp */; };
+		3D0EEA381F73E7FD00C45FC8 /* [BOJ_1786]찾기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA001F73E7FD00C45FC8 /* [BOJ_1786]찾기.cpp */; };
+		3D0EEA391F73E7FD00C45FC8 /* [BOJ_1886]프리즌_브레이크.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA011F73E7FD00C45FC8 /* [BOJ_1886]프리즌_브레이크.cpp */; };
+		3D0EEA3A1F73E7FD00C45FC8 /* [BOJ_1966]프린터큐.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA021F73E7FD00C45FC8 /* [BOJ_1966]프린터큐.cpp */; };
+		3D0EEA3B1F73E7FD00C45FC8 /* [BOJ_1987]알파벳.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA031F73E7FD00C45FC8 /* [BOJ_1987]알파벳.cpp */; };
+		3D0EEA3C1F73E7FD00C45FC8 /* [BOJ_2150]Strongly_Connected_Component.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA041F73E7FD00C45FC8 /* [BOJ_2150]Strongly_Connected_Component.cpp */; };
+		3D0EEA3D1F73E7FD00C45FC8 /* [BOJ_2178]미로탐색.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA051F73E7FD00C45FC8 /* [BOJ_2178]미로탐색.cpp */; };
+		3D0EEA3E1F73E7FD00C45FC8 /* [BOJ_2193]이친수.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA061F73E7FD00C45FC8 /* [BOJ_2193]이친수.cpp */; };
+		3D0EEA3F1F73E7FD00C45FC8 /* [BOJ_2231]분해합.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA071F73E7FD00C45FC8 /* [BOJ_2231]분해합.cpp */; };
+		3D0EEA401F73E7FD00C45FC8 /* [BOJ_2309]일곱난쟁이.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA081F73E7FD00C45FC8 /* [BOJ_2309]일곱난쟁이.cpp */; };
+		3D0EEA411F73E7FD00C45FC8 /* [BOJ_2412]암벽등반.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA091F73E7FD00C45FC8 /* [BOJ_2412]암벽등반.cpp */; };
+		3D0EEA421F73E7FD00C45FC8 /* [BOJ_2579]계단오르기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA0A1F73E7FD00C45FC8 /* [BOJ_2579]계단오르기.cpp */; };
+		3D0EEA431F73E7FD00C45FC8 /* [BOJ_5427]불.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA0B1F73E7FD00C45FC8 /* [BOJ_5427]불.cpp */; };
+		3D0EEA441F73E7FD00C45FC8 /* [BOJ_5719]거의_최단_경로.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA0C1F73E7FD00C45FC8 /* [BOJ_5719]거의_최단_경로.cpp */; };
+		3D0EEA451F73E7FD00C45FC8 /* [BOJ_6118]숨바꼭질.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA0D1F73E7FD00C45FC8 /* [BOJ_6118]숨바꼭질.cpp */; };
+		3D0EEA461F73E7FD00C45FC8 /* [BOJ_6603]로또.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA0E1F73E7FD00C45FC8 /* [BOJ_6603]로또.cpp */; };
+		3D0EEA471F73E7FD00C45FC8 /* [BOJ_7568]덩치.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA0F1F73E7FD00C45FC8 /* [BOJ_7568]덩치.cpp */; };
+		3D0EEA481F73E7FD00C45FC8 /* [BOJ_7576]토마토.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA101F73E7FD00C45FC8 /* [BOJ_7576]토마토.cpp */; };
+		3D0EEA491F73E7FD00C45FC8 /* [BOJ_9015]정사각형.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA111F73E7FD00C45FC8 /* [BOJ_9015]정사각형.cpp */; };
+		3D0EEA4A1F73E7FD00C45FC8 /* [BOJ_9023]연습시즌.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA121F73E7FD00C45FC8 /* [BOJ_9023]연습시즌.cpp */; };
+		3D0EEA4B1F73E7FD00C45FC8 /* [BOJ_9095]1,2,3더하기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA131F73E7FD00C45FC8 /* [BOJ_9095]1,2,3더하기.cpp */; };
+		3D0EEA4C1F73E7FD00C45FC8 /* [BOJ_9631]The_Alphabet_Sticker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA141F73E7FD00C45FC8 /* [BOJ_9631]The_Alphabet_Sticker.cpp */; };
+		3D0EEA4D1F73E7FD00C45FC8 /* [BOJ_9632]Swyper_Keyboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA151F73E7FD00C45FC8 /* [BOJ_9632]Swyper_Keyboard.cpp */; };
+		3D0EEA4E1F73E7FD00C45FC8 /* [BOJ_9635]Balloons_Colors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA161F73E7FD00C45FC8 /* [BOJ_9635]Balloons_Colors.cpp */; };
+		3D0EEA4F1F73E7FD00C45FC8 /* [BOJ_9636]NASSA’s_Robot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA171F73E7FD00C45FC8 /* [BOJ_9636]NASSA’s_Robot.cpp */; };
+		3D0EEA501F73E7FD00C45FC8 /* [BOJ_9637]The_Stones_Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA181F73E7FD00C45FC8 /* [BOJ_9637]The_Stones_Game.cpp */; };
+		3D0EEA511F73E7FD00C45FC8 /* [BOJ_9639]Omar_Loves_Candies.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA191F73E7FD00C45FC8 /* [BOJ_9639]Omar_Loves_Candies.cpp */; };
+		3D0EEA521F73E7FD00C45FC8 /* [BOJ_9663]N_Queen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA1A1F73E7FD00C45FC8 /* [BOJ_9663]N_Queen.cpp */; };
+		3D0EEA531F73E7FD00C45FC8 /* [BOJ_10258]스위치_배열.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA1B1F73E7FD00C45FC8 /* [BOJ_10258]스위치_배열.cpp */; };
+		3D0EEA541F73E7FD00C45FC8 /* [BOJ_10448]유레카이론.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA1C1F73E7FD00C45FC8 /* [BOJ_10448]유레카이론.cpp */; };
+		3D0EEA551F73E7FD00C45FC8 /* [BOJ_10972]다음순열.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA1D1F73E7FD00C45FC8 /* [BOJ_10972]다음순열.cpp */; };
+		3D0EEA561F73E7FD00C45FC8 /* [BOJ_10973]이전순열.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA1E1F73E7FD00C45FC8 /* [BOJ_10973]이전순열.cpp */; };
+		3D0EEA571F73E7FD00C45FC8 /* [BOJ_10974]모든순열.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA1F1F73E7FD00C45FC8 /* [BOJ_10974]모든순열.cpp */; };
+		3D0EEA581F73E7FD00C45FC8 /* [BOJ_11038]Entrance Examination.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA201F73E7FD00C45FC8 /* [BOJ_11038]Entrance Examination.cpp */; };
+		3D0EEA591F73E7FD00C45FC8 /* [BOJ_11040]ICPC Calculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA211F73E7FD00C45FC8 /* [BOJ_11040]ICPC Calculator.cpp */; };
+		3D0EEA5A1F73E7FD00C45FC8 /* [BOJ_11066]파일_합치기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA221F73E7FD00C45FC8 /* [BOJ_11066]파일_합치기.cpp */; };
+		3D0EEA5B1F73E7FD00C45FC8 /* [BOJ_11266]단절점.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA231F73E7FD00C45FC8 /* [BOJ_11266]단절점.cpp */; };
+		3D0EEA5C1F73E7FD00C45FC8 /* [BOJ_11403]경로찾기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA241F73E7FD00C45FC8 /* [BOJ_11403]경로찾기.cpp */; };
+		3D0EEA5D1F73E7FD00C45FC8 /* [BOJ_11605]Magic_Trick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA251F73E7FD00C45FC8 /* [BOJ_11605]Magic_Trick.cpp */; };
+		3D0EEA5E1F73E7FD00C45FC8 /* [BOJ_11609]Class_Time.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA261F73E7FD00C45FC8 /* [BOJ_11609]Class_Time.cpp */; };
+		3D0EEA5F1F73E7FD00C45FC8 /* [BOJ_11799]Game_of_Peace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA271F73E7FD00C45FC8 /* [BOJ_11799]Game_of_Peace.cpp */; };
+		3D0EEA601F73E7FD00C45FC8 /* [BOJ_11800]Tawla.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA281F73E7FD00C45FC8 /* [BOJ_11800]Tawla.cpp */; };
+		3D0EEA611F73E7FD00C45FC8 /* [BOJ_11801]Feast_Coins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA291F73E7FD00C45FC8 /* [BOJ_11801]Feast_Coins.cpp */; };
+		3D0EEA621F73E7FD00C45FC8 /* [BOJ_11808]마리오와_사악한_키노피오.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA2A1F73E7FD00C45FC8 /* [BOJ_11808]마리오와_사악한_키노피오.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3D0EE9E71F73E7DA00C45FC8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3D0EE9E91F73E7DA00C45FC8 /* BOJ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BOJ; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0EE9F31F73E7FD00C45FC8 /* [BOJ_1003]피보나치함수.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_1003]피보나치함수.cpp"; sourceTree = "<group>"; };
+		3D0EE9F41F73E7FD00C45FC8 /* [BOJ_1018]체스판다시칠하기.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_1018]체스판다시칠하기.cpp"; sourceTree = "<group>"; };
+		3D0EE9F51F73E7FD00C45FC8 /* [BOJ_1051]숫자삼각형.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_1051]숫자삼각형.cpp"; sourceTree = "<group>"; };
+		3D0EE9F61F73E7FD00C45FC8 /* [BOJ_1065]한수.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_1065]한수.cpp"; sourceTree = "<group>"; };
+		3D0EE9F71F73E7FD00C45FC8 /* [BOJ_1107]리모컨.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_1107]리모컨.cpp"; sourceTree = "<group>"; };
+		3D0EE9F81F73E7FD00C45FC8 /* [BOJ_1149]RGB거리.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_1149]RGB거리.cpp"; sourceTree = "<group>"; };
+		3D0EE9F91F73E7FD00C45FC8 /* [BOJ_1182]부분집합의합.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_1182]부분집합의합.cpp"; sourceTree = "<group>"; };
+		3D0EE9FA1F73E7FD00C45FC8 /* [BOJ_1219]오민식의_고민.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_1219]오민식의_고민.cpp"; sourceTree = "<group>"; };
+		3D0EE9FB1F73E7FD00C45FC8 /* [BOJ_1260]DFS와BFS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_1260]DFS와BFS.cpp"; sourceTree = "<group>"; };
+		3D0EE9FC1F73E7FD00C45FC8 /* [BOJ_1463]1로만들기.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_1463]1로만들기.cpp"; sourceTree = "<group>"; };
+		3D0EE9FD1F73E7FD00C45FC8 /* [BOJ_1697]숨바꼭질.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_1697]숨바꼭질.cpp"; sourceTree = "<group>"; };
+		3D0EE9FE1F73E7FD00C45FC8 /* [BOJ_1722]순열의순서.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_1722]순열의순서.cpp"; sourceTree = "<group>"; };
+		3D0EE9FF1F73E7FD00C45FC8 /* [BOJ_1753]최단경로.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_1753]최단경로.cpp"; sourceTree = "<group>"; };
+		3D0EEA001F73E7FD00C45FC8 /* [BOJ_1786]찾기.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_1786]찾기.cpp"; sourceTree = "<group>"; };
+		3D0EEA011F73E7FD00C45FC8 /* [BOJ_1886]프리즌_브레이크.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_1886]프리즌_브레이크.cpp"; sourceTree = "<group>"; };
+		3D0EEA021F73E7FD00C45FC8 /* [BOJ_1966]프린터큐.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_1966]프린터큐.cpp"; sourceTree = "<group>"; };
+		3D0EEA031F73E7FD00C45FC8 /* [BOJ_1987]알파벳.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_1987]알파벳.cpp"; sourceTree = "<group>"; };
+		3D0EEA041F73E7FD00C45FC8 /* [BOJ_2150]Strongly_Connected_Component.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_2150]Strongly_Connected_Component.cpp"; sourceTree = "<group>"; };
+		3D0EEA051F73E7FD00C45FC8 /* [BOJ_2178]미로탐색.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_2178]미로탐색.cpp"; sourceTree = "<group>"; };
+		3D0EEA061F73E7FD00C45FC8 /* [BOJ_2193]이친수.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_2193]이친수.cpp"; sourceTree = "<group>"; };
+		3D0EEA071F73E7FD00C45FC8 /* [BOJ_2231]분해합.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_2231]분해합.cpp"; sourceTree = "<group>"; };
+		3D0EEA081F73E7FD00C45FC8 /* [BOJ_2309]일곱난쟁이.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_2309]일곱난쟁이.cpp"; sourceTree = "<group>"; };
+		3D0EEA091F73E7FD00C45FC8 /* [BOJ_2412]암벽등반.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_2412]암벽등반.cpp"; sourceTree = "<group>"; };
+		3D0EEA0A1F73E7FD00C45FC8 /* [BOJ_2579]계단오르기.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_2579]계단오르기.cpp"; sourceTree = "<group>"; };
+		3D0EEA0B1F73E7FD00C45FC8 /* [BOJ_5427]불.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_5427]불.cpp"; sourceTree = "<group>"; };
+		3D0EEA0C1F73E7FD00C45FC8 /* [BOJ_5719]거의_최단_경로.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_5719]거의_최단_경로.cpp"; sourceTree = "<group>"; };
+		3D0EEA0D1F73E7FD00C45FC8 /* [BOJ_6118]숨바꼭질.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_6118]숨바꼭질.cpp"; sourceTree = "<group>"; };
+		3D0EEA0E1F73E7FD00C45FC8 /* [BOJ_6603]로또.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_6603]로또.cpp"; sourceTree = "<group>"; };
+		3D0EEA0F1F73E7FD00C45FC8 /* [BOJ_7568]덩치.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_7568]덩치.cpp"; sourceTree = "<group>"; };
+		3D0EEA101F73E7FD00C45FC8 /* [BOJ_7576]토마토.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_7576]토마토.cpp"; sourceTree = "<group>"; };
+		3D0EEA111F73E7FD00C45FC8 /* [BOJ_9015]정사각형.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_9015]정사각형.cpp"; sourceTree = "<group>"; };
+		3D0EEA121F73E7FD00C45FC8 /* [BOJ_9023]연습시즌.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_9023]연습시즌.cpp"; sourceTree = "<group>"; };
+		3D0EEA131F73E7FD00C45FC8 /* [BOJ_9095]1,2,3더하기.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_9095]1,2,3더하기.cpp"; sourceTree = "<group>"; };
+		3D0EEA141F73E7FD00C45FC8 /* [BOJ_9631]The_Alphabet_Sticker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_9631]The_Alphabet_Sticker.cpp"; sourceTree = "<group>"; };
+		3D0EEA151F73E7FD00C45FC8 /* [BOJ_9632]Swyper_Keyboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_9632]Swyper_Keyboard.cpp"; sourceTree = "<group>"; };
+		3D0EEA161F73E7FD00C45FC8 /* [BOJ_9635]Balloons_Colors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_9635]Balloons_Colors.cpp"; sourceTree = "<group>"; };
+		3D0EEA171F73E7FD00C45FC8 /* [BOJ_9636]NASSA’s_Robot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_9636]NASSA’s_Robot.cpp"; sourceTree = "<group>"; };
+		3D0EEA181F73E7FD00C45FC8 /* [BOJ_9637]The_Stones_Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_9637]The_Stones_Game.cpp"; sourceTree = "<group>"; };
+		3D0EEA191F73E7FD00C45FC8 /* [BOJ_9639]Omar_Loves_Candies.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_9639]Omar_Loves_Candies.cpp"; sourceTree = "<group>"; };
+		3D0EEA1A1F73E7FD00C45FC8 /* [BOJ_9663]N_Queen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_9663]N_Queen.cpp"; sourceTree = "<group>"; };
+		3D0EEA1B1F73E7FD00C45FC8 /* [BOJ_10258]스위치_배열.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_10258]스위치_배열.cpp"; sourceTree = "<group>"; };
+		3D0EEA1C1F73E7FD00C45FC8 /* [BOJ_10448]유레카이론.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_10448]유레카이론.cpp"; sourceTree = "<group>"; };
+		3D0EEA1D1F73E7FD00C45FC8 /* [BOJ_10972]다음순열.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_10972]다음순열.cpp"; sourceTree = "<group>"; };
+		3D0EEA1E1F73E7FD00C45FC8 /* [BOJ_10973]이전순열.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_10973]이전순열.cpp"; sourceTree = "<group>"; };
+		3D0EEA1F1F73E7FD00C45FC8 /* [BOJ_10974]모든순열.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_10974]모든순열.cpp"; sourceTree = "<group>"; };
+		3D0EEA201F73E7FD00C45FC8 /* [BOJ_11038]Entrance Examination.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_11038]Entrance Examination.cpp"; sourceTree = "<group>"; };
+		3D0EEA211F73E7FD00C45FC8 /* [BOJ_11040]ICPC Calculator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_11040]ICPC Calculator.cpp"; sourceTree = "<group>"; };
+		3D0EEA221F73E7FD00C45FC8 /* [BOJ_11066]파일_합치기.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_11066]파일_합치기.cpp"; sourceTree = "<group>"; };
+		3D0EEA231F73E7FD00C45FC8 /* [BOJ_11266]단절점.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_11266]단절점.cpp"; sourceTree = "<group>"; };
+		3D0EEA241F73E7FD00C45FC8 /* [BOJ_11403]경로찾기.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_11403]경로찾기.cpp"; sourceTree = "<group>"; };
+		3D0EEA251F73E7FD00C45FC8 /* [BOJ_11605]Magic_Trick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_11605]Magic_Trick.cpp"; sourceTree = "<group>"; };
+		3D0EEA261F73E7FD00C45FC8 /* [BOJ_11609]Class_Time.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_11609]Class_Time.cpp"; sourceTree = "<group>"; };
+		3D0EEA271F73E7FD00C45FC8 /* [BOJ_11799]Game_of_Peace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_11799]Game_of_Peace.cpp"; sourceTree = "<group>"; };
+		3D0EEA281F73E7FD00C45FC8 /* [BOJ_11800]Tawla.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_11800]Tawla.cpp"; sourceTree = "<group>"; };
+		3D0EEA291F73E7FD00C45FC8 /* [BOJ_11801]Feast_Coins.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_11801]Feast_Coins.cpp"; sourceTree = "<group>"; };
+		3D0EEA2A1F73E7FD00C45FC8 /* [BOJ_11808]마리오와_사악한_키노피오.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "[BOJ_11808]마리오와_사악한_키노피오.cpp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D0EE9E61F73E7DA00C45FC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D0EE9E01F73E7DA00C45FC8 = {
+			isa = PBXGroup;
+			children = (
+				3D0EE9EB1F73E7DA00C45FC8 /* BOJ */,
+				3D0EE9EA1F73E7DA00C45FC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D0EE9EA1F73E7DA00C45FC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D0EE9E91F73E7DA00C45FC8 /* BOJ */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D0EE9EB1F73E7DA00C45FC8 /* BOJ */ = {
+			isa = PBXGroup;
+			children = (
+				3D0EE9F31F73E7FD00C45FC8 /* [BOJ_1003]피보나치함수.cpp */,
+				3D0EE9F41F73E7FD00C45FC8 /* [BOJ_1018]체스판다시칠하기.cpp */,
+				3D0EE9F51F73E7FD00C45FC8 /* [BOJ_1051]숫자삼각형.cpp */,
+				3D0EE9F61F73E7FD00C45FC8 /* [BOJ_1065]한수.cpp */,
+				3D0EE9F71F73E7FD00C45FC8 /* [BOJ_1107]리모컨.cpp */,
+				3D0EE9F81F73E7FD00C45FC8 /* [BOJ_1149]RGB거리.cpp */,
+				3D0EE9F91F73E7FD00C45FC8 /* [BOJ_1182]부분집합의합.cpp */,
+				3D0EE9FA1F73E7FD00C45FC8 /* [BOJ_1219]오민식의_고민.cpp */,
+				3D0EE9FB1F73E7FD00C45FC8 /* [BOJ_1260]DFS와BFS.cpp */,
+				3D0EE9FC1F73E7FD00C45FC8 /* [BOJ_1463]1로만들기.cpp */,
+				3D0EE9FD1F73E7FD00C45FC8 /* [BOJ_1697]숨바꼭질.cpp */,
+				3D0EE9FE1F73E7FD00C45FC8 /* [BOJ_1722]순열의순서.cpp */,
+				3D0EE9FF1F73E7FD00C45FC8 /* [BOJ_1753]최단경로.cpp */,
+				3D0EEA001F73E7FD00C45FC8 /* [BOJ_1786]찾기.cpp */,
+				3D0EEA011F73E7FD00C45FC8 /* [BOJ_1886]프리즌_브레이크.cpp */,
+				3D0EEA021F73E7FD00C45FC8 /* [BOJ_1966]프린터큐.cpp */,
+				3D0EEA031F73E7FD00C45FC8 /* [BOJ_1987]알파벳.cpp */,
+				3D0EEA041F73E7FD00C45FC8 /* [BOJ_2150]Strongly_Connected_Component.cpp */,
+				3D0EEA051F73E7FD00C45FC8 /* [BOJ_2178]미로탐색.cpp */,
+				3D0EEA061F73E7FD00C45FC8 /* [BOJ_2193]이친수.cpp */,
+				3D0EEA071F73E7FD00C45FC8 /* [BOJ_2231]분해합.cpp */,
+				3D0EEA081F73E7FD00C45FC8 /* [BOJ_2309]일곱난쟁이.cpp */,
+				3D0EEA091F73E7FD00C45FC8 /* [BOJ_2412]암벽등반.cpp */,
+				3D0EEA0A1F73E7FD00C45FC8 /* [BOJ_2579]계단오르기.cpp */,
+				3D0EEA0B1F73E7FD00C45FC8 /* [BOJ_5427]불.cpp */,
+				3D0EEA0C1F73E7FD00C45FC8 /* [BOJ_5719]거의_최단_경로.cpp */,
+				3D0EEA0D1F73E7FD00C45FC8 /* [BOJ_6118]숨바꼭질.cpp */,
+				3D0EEA0E1F73E7FD00C45FC8 /* [BOJ_6603]로또.cpp */,
+				3D0EEA0F1F73E7FD00C45FC8 /* [BOJ_7568]덩치.cpp */,
+				3D0EEA101F73E7FD00C45FC8 /* [BOJ_7576]토마토.cpp */,
+				3D0EEA111F73E7FD00C45FC8 /* [BOJ_9015]정사각형.cpp */,
+				3D0EEA121F73E7FD00C45FC8 /* [BOJ_9023]연습시즌.cpp */,
+				3D0EEA131F73E7FD00C45FC8 /* [BOJ_9095]1,2,3더하기.cpp */,
+				3D0EEA141F73E7FD00C45FC8 /* [BOJ_9631]The_Alphabet_Sticker.cpp */,
+				3D0EEA151F73E7FD00C45FC8 /* [BOJ_9632]Swyper_Keyboard.cpp */,
+				3D0EEA161F73E7FD00C45FC8 /* [BOJ_9635]Balloons_Colors.cpp */,
+				3D0EEA171F73E7FD00C45FC8 /* [BOJ_9636]NASSA’s_Robot.cpp */,
+				3D0EEA181F73E7FD00C45FC8 /* [BOJ_9637]The_Stones_Game.cpp */,
+				3D0EEA191F73E7FD00C45FC8 /* [BOJ_9639]Omar_Loves_Candies.cpp */,
+				3D0EEA1A1F73E7FD00C45FC8 /* [BOJ_9663]N_Queen.cpp */,
+				3D0EEA1B1F73E7FD00C45FC8 /* [BOJ_10258]스위치_배열.cpp */,
+				3D0EEA1C1F73E7FD00C45FC8 /* [BOJ_10448]유레카이론.cpp */,
+				3D0EEA1D1F73E7FD00C45FC8 /* [BOJ_10972]다음순열.cpp */,
+				3D0EEA1E1F73E7FD00C45FC8 /* [BOJ_10973]이전순열.cpp */,
+				3D0EEA1F1F73E7FD00C45FC8 /* [BOJ_10974]모든순열.cpp */,
+				3D0EEA201F73E7FD00C45FC8 /* [BOJ_11038]Entrance Examination.cpp */,
+				3D0EEA211F73E7FD00C45FC8 /* [BOJ_11040]ICPC Calculator.cpp */,
+				3D0EEA221F73E7FD00C45FC8 /* [BOJ_11066]파일_합치기.cpp */,
+				3D0EEA231F73E7FD00C45FC8 /* [BOJ_11266]단절점.cpp */,
+				3D0EEA241F73E7FD00C45FC8 /* [BOJ_11403]경로찾기.cpp */,
+				3D0EEA251F73E7FD00C45FC8 /* [BOJ_11605]Magic_Trick.cpp */,
+				3D0EEA261F73E7FD00C45FC8 /* [BOJ_11609]Class_Time.cpp */,
+				3D0EEA271F73E7FD00C45FC8 /* [BOJ_11799]Game_of_Peace.cpp */,
+				3D0EEA281F73E7FD00C45FC8 /* [BOJ_11800]Tawla.cpp */,
+				3D0EEA291F73E7FD00C45FC8 /* [BOJ_11801]Feast_Coins.cpp */,
+				3D0EEA2A1F73E7FD00C45FC8 /* [BOJ_11808]마리오와_사악한_키노피오.cpp */,
+			);
+			path = BOJ;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D0EE9E81F73E7DA00C45FC8 /* BOJ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D0EE9F01F73E7DA00C45FC8 /* Build configuration list for PBXNativeTarget "BOJ" */;
+			buildPhases = (
+				3D0EE9E51F73E7DA00C45FC8 /* Sources */,
+				3D0EE9E61F73E7DA00C45FC8 /* Frameworks */,
+				3D0EE9E71F73E7DA00C45FC8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BOJ;
+			productName = BOJ;
+			productReference = 3D0EE9E91F73E7DA00C45FC8 /* BOJ */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D0EE9E11F73E7DA00C45FC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = KGT;
+				TargetAttributes = {
+					3D0EE9E81F73E7DA00C45FC8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3D0EE9E41F73E7DA00C45FC8 /* Build configuration list for PBXProject "BOJ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3D0EE9E01F73E7DA00C45FC8;
+			productRefGroup = 3D0EE9EA1F73E7DA00C45FC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D0EE9E81F73E7DA00C45FC8 /* BOJ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D0EE9E51F73E7DA00C45FC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0EEA601F73E7FD00C45FC8 /* [BOJ_11800]Tawla.cpp in Sources */,
+				3D0EEA5A1F73E7FD00C45FC8 /* [BOJ_11066]파일_합치기.cpp in Sources */,
+				3D0EEA361F73E7FD00C45FC8 /* [BOJ_1722]순열의순서.cpp in Sources */,
+				3D0EEA2C1F73E7FD00C45FC8 /* [BOJ_1018]체스판다시칠하기.cpp in Sources */,
+				3D0EEA351F73E7FD00C45FC8 /* [BOJ_1697]숨바꼭질.cpp in Sources */,
+				3D0EEA5F1F73E7FD00C45FC8 /* [BOJ_11799]Game_of_Peace.cpp in Sources */,
+				3D0EEA4A1F73E7FD00C45FC8 /* [BOJ_9023]연습시즌.cpp in Sources */,
+				3D0EEA611F73E7FD00C45FC8 /* [BOJ_11801]Feast_Coins.cpp in Sources */,
+				3D0EEA531F73E7FD00C45FC8 /* [BOJ_10258]스위치_배열.cpp in Sources */,
+				3D0EEA541F73E7FD00C45FC8 /* [BOJ_10448]유레카이론.cpp in Sources */,
+				3D0EEA571F73E7FD00C45FC8 /* [BOJ_10974]모든순열.cpp in Sources */,
+				3D0EEA621F73E7FD00C45FC8 /* [BOJ_11808]마리오와_사악한_키노피오.cpp in Sources */,
+				3D0EEA461F73E7FD00C45FC8 /* [BOJ_6603]로또.cpp in Sources */,
+				3D0EEA421F73E7FD00C45FC8 /* [BOJ_2579]계단오르기.cpp in Sources */,
+				3D0EEA561F73E7FD00C45FC8 /* [BOJ_10973]이전순열.cpp in Sources */,
+				3D0EEA2B1F73E7FD00C45FC8 /* [BOJ_1003]피보나치함수.cpp in Sources */,
+				3D0EEA431F73E7FD00C45FC8 /* [BOJ_5427]불.cpp in Sources */,
+				3D0EEA3E1F73E7FD00C45FC8 /* [BOJ_2193]이친수.cpp in Sources */,
+				3D0EEA311F73E7FD00C45FC8 /* [BOJ_1182]부분집합의합.cpp in Sources */,
+				3D0EEA341F73E7FD00C45FC8 /* [BOJ_1463]1로만들기.cpp in Sources */,
+				3D0EEA521F73E7FD00C45FC8 /* [BOJ_9663]N_Queen.cpp in Sources */,
+				3D0EEA5E1F73E7FD00C45FC8 /* [BOJ_11609]Class_Time.cpp in Sources */,
+				3D0EEA4C1F73E7FD00C45FC8 /* [BOJ_9631]The_Alphabet_Sticker.cpp in Sources */,
+				3D0EEA321F73E7FD00C45FC8 /* [BOJ_1219]오민식의_고민.cpp in Sources */,
+				3D0EEA3C1F73E7FD00C45FC8 /* [BOJ_2150]Strongly_Connected_Component.cpp in Sources */,
+				3D0EEA5D1F73E7FD00C45FC8 /* [BOJ_11605]Magic_Trick.cpp in Sources */,
+				3D0EEA441F73E7FD00C45FC8 /* [BOJ_5719]거의_최단_경로.cpp in Sources */,
+				3D0EEA371F73E7FD00C45FC8 /* [BOJ_1753]최단경로.cpp in Sources */,
+				3D0EEA2F1F73E7FD00C45FC8 /* [BOJ_1107]리모컨.cpp in Sources */,
+				3D0EEA3B1F73E7FD00C45FC8 /* [BOJ_1987]알파벳.cpp in Sources */,
+				3D0EEA4E1F73E7FD00C45FC8 /* [BOJ_9635]Balloons_Colors.cpp in Sources */,
+				3D0EEA381F73E7FD00C45FC8 /* [BOJ_1786]찾기.cpp in Sources */,
+				3D0EEA301F73E7FD00C45FC8 /* [BOJ_1149]RGB거리.cpp in Sources */,
+				3D0EEA471F73E7FD00C45FC8 /* [BOJ_7568]덩치.cpp in Sources */,
+				3D0EEA511F73E7FD00C45FC8 /* [BOJ_9639]Omar_Loves_Candies.cpp in Sources */,
+				3D0EEA331F73E7FD00C45FC8 /* [BOJ_1260]DFS와BFS.cpp in Sources */,
+				3D0EEA3D1F73E7FD00C45FC8 /* [BOJ_2178]미로탐색.cpp in Sources */,
+				3D0EEA4B1F73E7FD00C45FC8 /* [BOJ_9095]1,2,3더하기.cpp in Sources */,
+				3D0EEA481F73E7FD00C45FC8 /* [BOJ_7576]토마토.cpp in Sources */,
+				3D0EEA2D1F73E7FD00C45FC8 /* [BOJ_1051]숫자삼각형.cpp in Sources */,
+				3D0EEA401F73E7FD00C45FC8 /* [BOJ_2309]일곱난쟁이.cpp in Sources */,
+				3D0EEA391F73E7FD00C45FC8 /* [BOJ_1886]프리즌_브레이크.cpp in Sources */,
+				3D0EEA2E1F73E7FD00C45FC8 /* [BOJ_1065]한수.cpp in Sources */,
+				3D0EEA5C1F73E7FD00C45FC8 /* [BOJ_11403]경로찾기.cpp in Sources */,
+				3D0EEA5B1F73E7FD00C45FC8 /* [BOJ_11266]단절점.cpp in Sources */,
+				3D0EEA581F73E7FD00C45FC8 /* [BOJ_11038]Entrance Examination.cpp in Sources */,
+				3D0EEA411F73E7FD00C45FC8 /* [BOJ_2412]암벽등반.cpp in Sources */,
+				3D0EEA591F73E7FD00C45FC8 /* [BOJ_11040]ICPC Calculator.cpp in Sources */,
+				3D0EEA4F1F73E7FD00C45FC8 /* [BOJ_9636]NASSA’s_Robot.cpp in Sources */,
+				3D0EEA491F73E7FD00C45FC8 /* [BOJ_9015]정사각형.cpp in Sources */,
+				3D0EEA4D1F73E7FD00C45FC8 /* [BOJ_9632]Swyper_Keyboard.cpp in Sources */,
+				3D0EEA551F73E7FD00C45FC8 /* [BOJ_10972]다음순열.cpp in Sources */,
+				3D0EEA3F1F73E7FD00C45FC8 /* [BOJ_2231]분해합.cpp in Sources */,
+				3D0EEA451F73E7FD00C45FC8 /* [BOJ_6118]숨바꼭질.cpp in Sources */,
+				3D0EEA501F73E7FD00C45FC8 /* [BOJ_9637]The_Stones_Game.cpp in Sources */,
+				3D0EEA3A1F73E7FD00C45FC8 /* [BOJ_1966]프린터큐.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3D0EE9EE1F73E7DA00C45FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3D0EE9EF1F73E7DA00C45FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3D0EE9F11F73E7DA00C45FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D0EE9F21F73E7DA00C45FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D0EE9E41F73E7DA00C45FC8 /* Build configuration list for PBXProject "BOJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0EE9EE1F73E7DA00C45FC8 /* Debug */,
+				3D0EE9EF1F73E7DA00C45FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D0EE9F01F73E7DA00C45FC8 /* Build configuration list for PBXNativeTarget "BOJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0EE9F11F73E7DA00C45FC8 /* Debug */,
+				3D0EE9F21F73E7DA00C45FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D0EE9E11F73E7DA00C45FC8 /* Project object */;
+}
